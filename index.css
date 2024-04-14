@@ -474,7 +474,7 @@ section__category */
   }
 }
 
-.model__section{
+/* .model__section{
   position: fixed;
   top: 50%;
   left: 50%;
@@ -501,6 +501,6 @@ section__category */
   font-size: 15px;
   font-weight: 600;
   color: #333;
-}
+} */
 
 
