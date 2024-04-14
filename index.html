@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css" class="css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>House Shop</title>
+</head>
+<body>
+  <header>
+    <div class="container1">
+      
+        <a href="#House.in" class="anchor">HOUSE.IN</a>
+      
+        
+          <div class="nav">
+            <a href="#home">HOME</a>
+            <a href="#shop">SHOP</a>
+            <a href="#category">CATEGORY</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+          </div>
+        
+      
+        <div class="icons">
+          <i class="ri-user-fill"></i>
+          <i class="ri-search-eye-line"></i>
+          <i class="ri-shopping-cart-2-fill"></i>
+        </div>
+    </div>
+  </header>
+
+
+ <section class="home" id="home">
+  <div class="carousel-container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="./images/h3.jpg" alt="ib1" style="width:100%; height: 100%;">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Best Houses for Modern Living</h2>
+            <button id="btn">REGISTER NOW</button>
+          </div>
+        </div>
+      
+        <div class="item">
+          <img src="./images/h2.jpg" alt="ib5" style="width:100%; height: 100%;">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h1>Best Houses for Modern Living</h1> -->
+            <h2 id="heading">Best Houses for Modern Living</h2>
+            <button id="s_btn">REGISTER NOW</button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+ </section>
+
+ <section class="shop" id="shop">
+  <div class="shop__container" data-aos="fade-up" data-aos-duration="1200">
+    <div class="shop__box">
+      <div class="img__container">
+        <img src="./images/img1.jpg" alt="">
+      </div>
+      <div class="shop__content">
+        <div class="shop__data">
+          <span>New Colors Introduced </span>
+          <h1>MODERN HOME</h1>
+          <a href="#shop">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="shop__box">
+      <div class="img__container">
+        <img src="./images/img2.avif" alt="">
+      </div>
+      <div class="shop__content">
+        <div class="shop__data">
+          <span>Explore Latest Designs</span>
+          <h1>POOJA ROOM</h1>
+          <a href="#">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section class="latest-products" id="latest-products">
+  <div class="latest__products" id="glide2" data-aos="fade-up" data-aos-duration="1200">
+    <h1><i class="ri-square-fill"></i> Latest Designs</h1>
+  </div>
+</section>
+
+ <section class="category" id="category">
+  <div class="category__details">
+    <div class="category__data" data-aos="fade-up" data-aos-duration="1200">
+      <div class="category__content">
+        <img src="./images/cg1.jpg" alt="">
+        <h1>AMERICAN CRAFTSMAN</h1>
+        <div class="icon">
+          <div class="star">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+          </div>
+          <div class="s_icon">
+            <i class="ri-star-fill"></i>
+          </div>
+        </div>
+        <p>$640000.00</p>
+        <button id="btn_s">ADD TO CART</button>
+        <button id="s_btn">BUY NOW</button>
+      </div>
+      <div class="category__content">
+        <img src="./images/cg2.jpg" alt="">
+        <h1>MEDITERRANEAN HOME</h1>
+        <div class="icon">
+          <div class="star">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+          </div>
+          <div class="s_icon">
+            <i class="ri-star-fill"></i>
+          </div>
+        </div>
+        <p>$450000.00</p>
+        <button id="btn_s">ADD TO CART</button>
+        <button id="s_btn">BUY NOW</button>
+      </div>
+      <div class="category__content">
+        <img src="./images/cg3.jpg" alt="">
+        <h1>TUDOR</h1>
+        <div class="icon">
+          <div class="star">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+          </div>
+          <div class="s_icon">
+            <i class="ri-star-fill"></i>
+          </div>
+        </div>
+        <p>$500000.00</p>
+        <button id="btn_s">ADD TO CART</button>
+        <button id="s_btn">BUY NOW</button>  
+      </div>
+
+    </div>
+
+
+    <div class="category__data" data-aos="fade-up" data-aos-duration="1200">
+      <div class="category__content">
+        <img src="./images/cg4.jpg" alt="">
+        <h1>FARMHOUSE STYLE</h1>
+        <div class="icon">
+          <div class="star">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+          </div>
+          <div class="s_icon">
+            <i class="ri-star-fill"></i>
+          </div>
+        </div>
+        <p>$580000.00</p>
+        <button id="btn_s">ADD TO CART</button>
+        <button id="s_btn">BUY NOW</button>
+      </div>
+
+      <div class="category__content">
+        <img src="./images/cg5.jpg" alt="">
+        <h1>PRAIRIE SCHOOL</h1>
+        <div class="icon">
+          <div class="star">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+          </div>
+          <div class="s_icon">
+            <i class="ri-star-fill"></i>
+          </div>
+        </div>
+        <p>$600000.00</p>
+        <button id="btn_s">ADD TO CART</button>
+        <button id="s_btn">BUY NOW</button>
+      </div>
+
+      <div class="category__content">
+        <img src="./images/cg6.jpg" alt="">
+        <h1>CABIN</h1>
+        <div class="icon">
+          <div class="star">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+          </div>
+          <div class="s_icon">
+            <i class="ri-star-fill"></i>
+          </div>
+        </div>
+        <p>$500000.00</p>
+        <button id="btn_s">ADD TO CART</button>
+        <button id="s_btn">BUY NOW</button>  
+      </div>
+    </div>
+  </div>
+ </section>
+
+
+ <section class="about" id="about">
+  <div class="about__container" data-aos=fade-up data-aos-duration="1200">
+    <div class="about__content">
+      <div class="img__containerr">
+        <img src="./kundan2.jpg" alt="">
+      </div>
+      <div class="about__content2">
+        <h3>Hello! I’m the owner of House.in. My name is Kundan Sagar Rana. It’s great to meet you. I oversee House.in’s operations and am focused on driving innovation, improving user experiences, and ensuring House.in. If you have any questions about House.in or want to chat about the latest developments, feel free to ask!</h3>
+        <p>Kundan Sagar Rana<br>
+          <span>Founder at House.in</span></p>
+      </div>
+    </div>
+  </div>
+ </section>
+
+<footer id="contact" class="contact">
+  <div class="container">
+    <div class="footer__top" data-aos="fade-up" data-aos-duration="1200">
+      <div class="footer-top__box">
+        <h3>EXTRAS</h3>
+        <a href="#">Brands</a>
+        <a href="#">Gift Certificates</a>
+        <a href="#">Affiliate</a>
+        <a href="#">Specials</a>
+        <a href="#">Site Map</a>
+      </div>
+      <div class="footer-top__box">
+        <h3>INFORMATION</h3>
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Site Map</a>
+      </div>
+      <div class="footer-top__box">
+        <h3>MY ACCOUNT</h3>
+        <a href="#">My Account</a>
+        <a href="#">Order History</a>
+        <a href="#">Wish List</a>
+        <a href="#">Newsletter</a>
+        <a href="#">Returns</a>
+      </div>
+      <div class="footer-top__box">
+        <h3>CONTACT US</h3>
+        <div class="address">
+          <span>
+            <i class="ri-map-pin-2-fill"></i>
+          </span>
+            42 Dream House, Dreammy street, 7131 Dreamville, India
+        </div>
+        <div class="address">
+          <span>
+            <i class="ri-mail-fill"></i>
+          </span>
+          company@gmail.com
+        </div>
+        <div class="address">
+          <span>
+            <i class="ri-phone-fill"></i>
+          </span>
+          916-456-4512
+        </div>
+        <div class="address">
+          <span>
+            <i class="ri-home-7-fill"></i>
+          </span>
+          Dream City, India
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="footer-bottom__box">
+    </div>
+    <div class="footer-bottom__box">
+    </div>
+  </div>
+  </div>
+</footer>
+
+
+<section class="goto-top scroll-link" id="goto-top scroll-link">
+  <a href="#header" class="goto-top scroll-link">
+      <i class="ri-arrow-up-line"></i>
+  </a>
+</section>  
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="index.js"></script>
+</body>
+</html>
