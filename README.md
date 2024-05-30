@@ -1,4 +1,3 @@
-House-Shopping-Website
 >> Made a House-Shopping-Website using html, css, javascript and bootstrap.
 >> Created a structute and styled it with CSS using elements and classes defined in HTML.
 >> Added some functionality using javascript.
