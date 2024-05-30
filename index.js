@@ -8,6 +8,6 @@ a.addEventListener("click",function(){
     document.documentElement.scrollTop = 0;
 })
 
-// const btn = document.querySelector("#btns");
-// const modelSection = document.querySelector(".model__section");
+
+
 
